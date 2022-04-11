@@ -11,6 +11,9 @@
 
 ### Steps
 * Build an Azure Container image for model deployment
-* Deploy model to "dev" using Azure Container Instance (ACI)
+* Deploy the model to "dev" using Azure Container Instance (ACI)
 * Query the deployed model in "dev"
-* 
+* Deploy the model to "prod" using Azure Kubernetes Services (AKS)
+* Query the deploed model in "prod"
+* #TODO How to update the production environment ?
+    - e.g. train a new model, build an Azure Container image for the model and deploy it to the AKS cluser? 
